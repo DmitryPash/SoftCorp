@@ -17,6 +17,7 @@ import { svg } from "./gulp/tasks/svgSprite.js";
 import { htaccess } from "./gulp/tasks/htaccess.js";
 import { otfToTtf, ttfToWoff, fonstStyle } from "./gulp/tasks/fonts.js";
 
+
 function watcher() {
   gulp.watch(path.watch.html, html);
   gulp.watch(path.watch.scss, scss);
