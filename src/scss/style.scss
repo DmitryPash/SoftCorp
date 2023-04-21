@@ -33,9 +33,9 @@ body {
   font-family: $baseFont;
   font-weight: 400;
   font-size: rem(16px);
-  line-height: 1.42;
-  color: #000;
-  background-color: #fff;
+  line-height: 1.2;
+  color: #fff;
+  background-color: #10101DE5;
 }
 
 #wrapper {
@@ -52,6 +52,7 @@ body {
 #middle {
   flex: 1 0 auto;
   -webkit-box-flex: 1;
+  padding-top: 100px;
 }
 
 #footer {
