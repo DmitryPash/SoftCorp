@@ -11,15 +11,15 @@
           <div class="main-screen__list-title">
             At vero eos et accusamus et iusto odio dignissimos ducimus!
           </div>
-          <ul>
-            <li>Totam rem aperiam eaque ipsa</li>
-            <li>Sit voluptatem accusantium doloremque laudantium</li>
-            <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+          <ul class="main-screen__list-ul">
+            <li class="main-screen__list-li">Totam rem aperiam eaque ipsa</li>
+            <li class="main-screen__list-li">Sit voluptatem accusantium doloremque laudantium</li>
+            <li class="main-screen__list-li">Sed ut perspiciatis, unde omnis iste natus error</li>
           </ul>
         </div>
         <div class="main-screen__btns">
           <div class="ui-btn main-screen-btn">заказать</div>
-          <div class="ui-btn ui-btn-more main-screen-btn">подброднее</div>
+          <div class="ui-btn ui-btn_more main-screen-btn">подброднее</div>
         </div>
       </div>     
     </div>
@@ -81,7 +81,7 @@
           <div class="row rg30">
             <div class="col-md-4">
               <div class="select-menu">
-                <input type="hidden" class="selected-options" value="">
+                <input type="hidden" class="selected-options" value="" name="sistemType">
                 <div class="select">
                   <span>Выберите тип системы</span>
                   <svg class="select__icon">
@@ -106,17 +106,17 @@
             </div>
             <div class="col-md-4">
               <div class="ui-field">
-                <input type="email" placeholder="Ваш e-mail" class="ui-field__input">
+                <input type="email" name="email" placeholder="Ваш e-mail" class="ui-field__input">
               </div>
             </div>
             <div class="col-md-4">
               <div class="ui-field">
-                <input type="text" placeholder="Ваше имя" class="ui-field__input">
+                <input type="text" name="firstname" placeholder="Ваше имя" class="ui-field__input">
               </div>
             </div>
             <div class="col-md-8">
               <div class="ui-field-range">
-                <label class="ui-field-range__header" for="field-range">
+                <label class="ui-field-range__header" for="range">
                   <div class="ui-field-range__title">
                     Sed ut perspiciatis, unde omnis iste natus
                   </div>
@@ -124,7 +124,7 @@
                    <span class="ui-field-range__value-num">75</span>%
                   </div>
                 </label>
-                <input type="range" min="1" max="100" value="56" name="field-range" id="field-range" class="ui-field-range__input">
+                <input type="range" min="1" max="100" value="56" name="range" id="range" class="ui-field-range__input">
               </div> 
             </div>
             <div class="col-md-4">
@@ -135,7 +135,7 @@
                   </svg>
                   прикрепить файл
                 </label>
-                <input type="file" id="field_file" name="field_file" class="ui-field-file__input"></input>
+                <input type="file" name="file" id="field_file" name="field_file" class="ui-field-file__input"></input>
               </div>
             </div>
           </div>

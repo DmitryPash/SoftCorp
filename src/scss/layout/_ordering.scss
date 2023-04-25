@@ -4,6 +4,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+     @media(max-width:768px) {
+            padding: 60px 0px 70px 0px;
+        }
     &-header {
         text-align: center;
         margin-bottom: 80px;
@@ -13,8 +16,12 @@
             margin-bottom: 50px;
         }
         &__submit {
-            max-width: 300px;
-
+            display: block;
+            max-width: 370px;
+            margin: 0 auto;
+             @media(max-width:576px) {
+                    max-width: 100%;
+                }
         }
     }
     &__title {
@@ -32,7 +39,9 @@
         overflow-x: scroll;
         margin-bottom: 80px;
         @media(max-width:1024px) {
-            margin: 0 -20px;
+            margin-right: -20px;
+            margin-left: -20px;
+            margin-bottom: 40px;
             padding: 0 20px;
         }
         &::-webkit-scrollbar {
