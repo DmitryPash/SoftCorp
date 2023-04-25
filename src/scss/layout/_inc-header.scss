@@ -16,6 +16,9 @@
     &__logo {
         font-size: rem(28);
         font-weight: 800;
+         @media(max-width:576px) {
+                font-size: rem(22);
+            }
     }
     
 }

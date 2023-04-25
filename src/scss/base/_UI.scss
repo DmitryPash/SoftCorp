@@ -117,6 +117,11 @@
         -webkit-transition: .3s;
         transition: .3s;
         gap: 10px;
+        margin: 0 auto;
+        max-width: 370px;
+         @media(max-width:576px) {
+                max-width: 100%;
+            }
         &-icon {
           width: 20px;
           height: 20px;
@@ -136,12 +141,12 @@
 }
 
 
-.select-menu{
+.ui-select{
     cursor: pointer;
     position: relative;
   }
   
-  .select {
+  .ui-select-label {
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid #FFFFFF;
     border-radius: 3px;
@@ -173,7 +178,7 @@
     }
   }
   
-  .options-list{
+  .ui-select-list{
     position: absolute;
     width: 100%;
     background-color: #272733;
@@ -188,29 +193,29 @@
     border-radius: 3px;
   }
   
-  .option{
+  .ui-select-list__option{
     padding: 8px 0;
     font-weight: 500;
     font-size: 14px;
     transition: .3s ease-in-out;
   }
   
-  .option:hover,
-  .option.selected{
+  .ui-select-list__option:hover,
+  .ui-select-list__option.selected{
     color: #42A9ED;
   }
   
-  .options-list::-webkit-scrollbar{
+  .ui-select-list::-webkit-scrollbar{
     width: 7px;
     border-radius: 3px;
     background-color: #3D4050;
   }
   
-  .options-list::-webkit-scrollbar-thumb{
+  .ui-select-list::-webkit-scrollbar-thumb{
     background: #3E9CDC;
     border-radius: 3px;
   }
   
-  .options-list.active{
+  .ui-select-list.active{
     height: 200px;
   }
