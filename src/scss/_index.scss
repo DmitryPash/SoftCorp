@@ -1,19 +1,11 @@
-//Modifire
 .color {
     &_blue {
         color: $blue;
     }
 }
-.opened {
-    display: inline-block;
-    &-menu {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.overflow-h {
+.overflow_h {
     overflow: hidden;
+}
+.text-uppercase {
+    text-transform: uppercase;
 }

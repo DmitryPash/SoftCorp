@@ -20,29 +20,29 @@
 <div class="wrapper" id="wrapper">
   <header class="header" id="header">
     <div class="container">
-      <div class="header-wrapper flex space-between valign-center">
-        <div class="header-logo">LoremIpsum.<span class="color_blue">Net</span></div>
-        <div class="header-menu">
+      <div class="header-wrapper">
+        <div class="header__logo">LoremIpsum.<span class="color_blue">Net</span></div>
+        <nav class="menu">
           <ul>
-            <li>
-              <a href="#" class="header-menu_link">бизнес</a>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">бизнес</a>
             </li>
-            <li>
-              <a href="#" class="header-menu_link">о нас</a>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">о нас</a>
             </li>
-            <li>
-              <a href="#" class="header-menu_link">цены</a>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">цены</a>
             </li>
-            <li>
-              <a href="#" class="header-menu_link">оформить заказ</a>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">оформить заказ</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div class="menu-toggler">
-          <div class="menu-toggler_icon">
-            <div class="menu-toggler_line menu-toggler_line-top"></div>
-            <div class="menu-toggler_line menu-toggler_line-middle"></div>
-            <div class="menu-toggler_line menu-toggler_line-bottom"></div>
+          <div class="menu-toggler__icon">
+            <div class="menu-toggler__line menu-toggler__line-top"></div>
+            <div class="menu-toggler__line menu-toggler__line-middle"></div>
+            <div class="menu-toggler__line menu-toggler__line-bottom"></div>
           </div>
           
         </div>
@@ -52,10 +52,209 @@
   </header>
 
 <div class="middle" id="middle">
-  <h2>middle</h2>
+  <div class="main-screen">
+    <div class="container">
+      <div class="main-screen-wrapper">
+        <div class="main-screen__title">
+          <span class="color_blue">Lorem ipsum</span> dolor sit amet
+            consectetur<span class="color_blue"> adipiscing</span>
+        </div>
+        <div class="main-screen__list">
+          <div class="main-screen__list-title">
+            At vero eos et accusamus et iusto odio dignissimos ducimus!
+          </div>
+          <ul>
+            <li>Totam rem aperiam eaque ipsa</li>
+            <li>Sit voluptatem accusantium doloremque laudantium</li>
+            <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+          </ul>
+        </div>
+        <div class="main-screen__btns">
+          <div class="ui-btn main-screen-btn">заказать</div>
+          <div class="ui-btn ui-btn-more main-screen-btn">подброднее</div>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <div class="ordering">
+    <div class="container">
+      <div class="ordering-header">
+        <div class="ordering__title text-uppercase">
+          Оформление <span class="color_blue">Заказа</span> 
+        </div>
+        <div class="ordering__subtitle">
+          Перед заполнением формы ознакомьтесь с нашей схемой работы!
+        </div>
+      </div>
+      <div class="ordering-steps">
+        <div class="ordering-item">
+          <div class="ordering-item__icon">
+            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon1.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="ordering-item__name">
+            Lorem ipsum dolor sit amet
+          </div>
+        </div>
+        <div class="ordering-item">
+          <div class="ordering-item__icon">
+            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon2.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="ordering-item__name">
+            Сonsecteturadipiscing elit
+          </div>
+        </div>
+        <div class="ordering-item">
+          <div class="ordering-item__icon">
+            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon3.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="ordering-item__name">
+            Sed do eiusmod tempor
+          </div>
+        </div>
+        <div class="ordering-item">
+          <div class="ordering-item__icon">
+            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon4.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="ordering-item__name">
+            Esse cillum doloreeu fugiat
+          </div>
+        </div>
+        <div class="ordering-item">
+          <div class="ordering-item__icon">
+            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon5.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="ordering-item__name">
+            Excepteur sint occaecat cupidatat non proident
+          </div>
+        </div>
+      </div>
+      <form class="ordering-form">
+        <div class="ordering-form-wrapper">
+          <div class="row rg30">
+            <div class="col-md-4">
+              <div class="select-menu">
+                <input type="hidden" class="selected-options" value="">
+                <div class="select">
+                  <span>Выберите тип системы</span>
+                  <svg class="select__icon">
+                    <use xlink:href="images/svg/symbols.svg#select-arrow"></use>
+                  </svg>
+                </div>
+                <div class="options-list">
+                  <div class="option">Sed ut perspiciatis</div>
+                  <div class="option">Nemo enim ipsam</div>
+                  <div class="option">Et harum quidem</div>
+                  <div class="option">Temporibus autem</div>
+                  <div class="option">Itaque earum rerum</div>
+                  <div class="option">Lorem, ipsum dolor.</div>
+                  <div class="option">Lorem, ipsum.</div>
+                  <div class="option">Et harum quidem</div>
+                  <div class="option">Temporibus autem</div>
+                  <div class="option">Itaque earum rerum</div>
+                  <div class="option">Lorem, ipsum dolor.</div>
+                  <div class="option">Lorem, ipsum.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ui-field">
+                <input type="email" placeholder="Ваш e-mail" class="ui-field__input">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ui-field">
+                <input type="text" placeholder="Ваше имя" class="ui-field__input">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="ui-field-range">
+                <label class="ui-field-range__header" for="field-range">
+                  <div class="ui-field-range__title">
+                    Sed ut perspiciatis, unde omnis iste natus
+                  </div>
+                  <div class="ui-field-range__value">
+                   <span class="ui-field-range__value-num">75</span>%
+                  </div>
+                </label>
+                <input type="range" min="1" max="100" value="56" name="field-range" id="field-range" class="ui-field-range__input">
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="ui-field-file">
+                <label class="ui-field-file__label" for="field_file">
+                  <svg class="ui-field-file__label-icon">
+                    <use xlink:href="images/svg/symbols.svg#file-icon"></use>
+                  </svg>
+                  прикрепить файл
+                </label>
+                <input type="file" id="field_file" name="field_file" class="ui-field-file__input"></input>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button type="submit" class="ordering-form__submit ui-btn">
+          отправить
+        </button>
+      </form>
+     
+      
+
+    </div>
+  </div>
 </div>
 <footer class="footer" id="footer">
-  <h3>footer</h3>
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-copyrigth">
+        <div class="footer-copyrigth__text">
+          © 2018 <span class="text-uppercase">«LoremIpsum.net»</span> Все права защищены.
+        </div>
+       
+      </div>
+      <div class="footer-payment footer-block">
+        <div class="footer__item">
+          <div class="footer__item-icon">
+            <img src="./images/svg/payment-qiwi.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="footer__item-title">Qiwi wallet</div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-icon">
+            <img src="./images/svg/payment-yandex.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="footer__item-title">Yandex wallet</div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-icon">
+            <img src="./images/svg/payment-web.svg" alt="alt" loading="lazy">
+          </div>
+          <div class="footer__item-title">Web wallet</div>
+        </div>
+        
+      </div>
+      <div class="footer-links footer-block">
+        <a href="#" class="footer__item">
+          <svg class="footer__item-icon">
+            <use xlink:href="images/svg/symbols.svg#social-mail"></use>
+          </svg>
+          <div class="footer__item-title">
+            info@ipsum228.com
+          </div>
+        </a>
+        <a href="#" class="footer__item"> 
+          <svg class="footer__item-icon">
+            <use xlink:href="images/svg/symbols.svg#social-vk"></use>
+          </svg>
+          <div class="footer__item-title">
+            Мы вконтакте
+          </div>
+        </a>
+      </div>
+    </div>
+    
+
+  </div>
 </footer>
 
 </div>
