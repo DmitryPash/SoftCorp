@@ -10,7 +10,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@800&display=swap" rel="stylesheet">
   <title>SoftCorp</title>
 
   <link rel="stylesheet" href="./css/style.css">
@@ -79,7 +79,7 @@
   <div class="ordering">
     <div class="container">
       <div class="ordering-header">
-        <div class="ordering__title text-uppercase">
+        <div class="ordering__title">
           Оформление <span class="color_blue">Заказа</span> 
         </div>
         <div class="ordering__subtitle">
@@ -87,41 +87,41 @@
         </div>
       </div>
       <div class="ordering-steps">
-        <div class="ordering-item">
-          <div class="ordering-item__icon">
-            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon1.svg" alt="alt" loading="lazy">
+        <div class="ordering-steps__item">
+          <div class="ordering-steps__item-icon">
+            <img class="ordering-steps__item-img" src="./images/icon/ordering-icon1.svg" alt="alt" loading="lazy">
           </div>
           <div class="ordering-item__name">
             Lorem ipsum dolor sit amet
           </div>
         </div>
-        <div class="ordering-item">
-          <div class="ordering-item__icon">
-            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon2.svg" alt="alt" loading="lazy">
+        <div class="ordering-steps__item">
+          <div class="ordering-steps__item-icon">
+            <img class="ordering-steps__item-img" src="./images/icon/ordering-icon2.svg" alt="alt" loading="lazy">
           </div>
           <div class="ordering-item__name">
             Сonsecteturadipiscing elit
           </div>
         </div>
-        <div class="ordering-item">
-          <div class="ordering-item__icon">
-            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon3.svg" alt="alt" loading="lazy">
+        <div class="ordering-steps__item">
+          <div class="ordering-steps__item-icon">
+            <img class="ordering-steps__item-img" src="./images/icon/ordering-icon3.svg" alt="alt" loading="lazy">
           </div>
           <div class="ordering-item__name">
             Sed do eiusmod tempor
           </div>
         </div>
-        <div class="ordering-item">
-          <div class="ordering-item__icon">
-            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon4.svg" alt="alt" loading="lazy">
+        <div class="ordering-steps__item">
+          <div class="ordering-steps__item-icon">
+            <img class="ordering-steps__item-img" src="./images/icon/ordering-icon4.svg" alt="alt" loading="lazy">
           </div>
           <div class="ordering-item__name">
             Esse cillum doloreeu fugiat
           </div>
         </div>
-        <div class="ordering-item">
-          <div class="ordering-item__icon">
-            <img class="ordering-item__icon-img" src="./images/icon/ordering-icon5.svg" alt="alt" loading="lazy">
+        <div class="ordering-steps__item">
+          <div class="ordering-steps__item-icon">
+            <img class="ordering-steps__item-img" src="./images/icon/ordering-icon5.svg" alt="alt" loading="lazy">
           </div>
           <div class="ordering-item__name">
             Excepteur sint occaecat cupidatat non proident
@@ -129,7 +129,7 @@
         </div>
       </div>
       <form class="ordering-form">
-        <div class="ordering-form-wrapper">
+        <div class="ordering-form__wrapper">
           <div class="row rg30">
             <div class="col-md-4">
               <div class="ui-select">
@@ -176,12 +176,12 @@
                    <span class="ui-field-range__value-num">75</span>%
                   </div>
                 </label>
-                <input type="range" min="1" max="100" value="56" name="range" id="range" class="ui-field-range__input">
+                <input type="range" min="1" max="100" value="75" name="range" id="range" class="ui-field-range__input">
               </div> 
             </div>
             <div class="col-md-4">
               <div class="ui-field-file">
-                <label class="ui-field-file__label" for="field">
+                <label class="ui-field-file__label" for="file">
                   <svg class="ui-field-file__label-icon">
                     <use xlink:href="images/svg/symbols.svg#file-icon"></use>
                   </svg>
@@ -213,40 +213,40 @@
        
       </div>
       <div class="footer-payment footer-block">
-        <div class="footer__item">
-          <div class="footer__item-icon">
+        <div class="footer-payment__item">
+          <div class="footer-payment__item-icon">
             <img src="./images/svg/payment-qiwi.svg" alt="alt" loading="lazy">
           </div>
-          <div class="footer__item-title">Qiwi wallet</div>
+          <div class="footer-payment__item-title">Qiwi wallet</div>
         </div>
-        <div class="footer__item">
-          <div class="footer__item-icon">
+        <div class="footer-payment__item">
+          <div class="footer-payment__item-icon">
             <img src="./images/svg/payment-yandex.svg" alt="alt" loading="lazy">
           </div>
-          <div class="footer__item-title">Yandex wallet</div>
+          <div class="footer-payment__item-title">Yandex wallet</div>
         </div>
-        <div class="footer__item">
-          <div class="footer__item-icon">
+        <div class="footer-payment__item">
+          <div class="footer-payment__item-icon">
             <img src="./images/svg/payment-web.svg" alt="alt" loading="lazy">
           </div>
-          <div class="footer__item-title">Web wallet</div>
+          <div class="footer-payment__item-title">Web wallet</div>
         </div>
         
       </div>
       <div class="footer-links footer-block">
-        <a href="#" class="footer__item">
-          <svg class="footer__item-icon">
+        <a href="#" class="footer-links__item">
+          <svg class="footer-links__item-icon">
             <use xlink:href="images/svg/symbols.svg#social-mail"></use>
           </svg>
-          <div class="footer__item-title">
+          <div class="footer-links__item-title">
             info@ipsum228.com
           </div>
         </a>
-        <a href="#" class="footer__item"> 
-          <svg class="footer__item-icon">
+        <a href="#" class="footer-links__item"> 
+          <svg class="footer-links__item-icon">
             <use xlink:href="images/svg/symbols.svg#social-vk"></use>
           </svg>
-          <div class="footer__item-title">
+          <div class="footer-links__item-title">
             Мы вконтакте
           </div>
         </a>
@@ -260,7 +260,7 @@
 </div>
 <!-- end-wrapper -->
 
-<script src="./js/main-min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 
 </html>

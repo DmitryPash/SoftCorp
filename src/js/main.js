@@ -24,14 +24,12 @@ window.addEventListener("resize", () => {
     toggler.addEventListener('click', openMenu);
 })();
 
-
-
 // Calc width of ordering-steps
-if(D.querySelector('.ordering-item')) {
+if(D.querySelector('.ordering-steps__item')) {
     function findW() {
         let orderingWrapper = D.querySelector('.ordering-steps')
-        let orderingItemALl = D.querySelectorAll('.ordering-item');
-        let orderingItem = D.querySelector('.ordering-item');
+        let orderingItemALl = D.querySelectorAll('.ordering-steps__item');
+        let orderingItem = D.querySelector('.ordering-steps__item');
 
         let totalWidth = 0;
         let cof = 0;
