@@ -15,6 +15,23 @@
          @media(max-width:768px) {
                 margin-bottom: 40px;
             }
+        &__title {
+            font-size: rem(36);
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+                @media(max-width:576px) {
+                    font-size: rem(30);
+                    margin-bottom: 20px;
+                }
+                @media(max-width:400px) {
+                    font-size: rem(24);
+                }
+        }
+        &__subtitle {
+            color: $grey;
+            font-size: rem(18);
+        }
     }
     &-form {
         &__wrapper {
@@ -31,23 +48,7 @@
                 }
         }
     }
-    &__title {
-        font-size: rem(36);
-        font-weight: 700;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-         @media(max-width:576px) {
-                font-size: rem(30);
-                margin-bottom: 20px;
-            }
-         @media(max-width:400px) {
-                font-size: rem(24);
-            }
-    }
-    &__subtitle {
-        color: $grey;
-        font-size: rem(18);
-    }
+   
     &-steps {
         display: flex;
         justify-content: space-between;
