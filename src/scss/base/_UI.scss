@@ -75,6 +75,7 @@
             background: rgba(255,255,255,.7);
             outline: 0;
             top: -4px;
+            
             border: 1px solid #fff;
             -webkit-transition: opacity .2s;
             transition: opacity .2s;
@@ -149,6 +150,7 @@
 .ui-select{
     cursor: pointer;
     position: relative;
+    z-index: 10;
   }
   
   .ui-select-label {
