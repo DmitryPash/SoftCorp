@@ -5,7 +5,7 @@ export const js = () => {
 	return app.gulp.src(app.path.src.js)
 		.pipe(minify({
 			ext:{
-				src:'-min.js',
+				src:'-dev.js',
 				min:'.js'
 			},
 			}	
